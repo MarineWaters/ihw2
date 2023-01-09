@@ -3,10 +3,11 @@ package com.hw.filedependency;
 import java.util.List;
 
 /**
+ * Класс для сохранения указанных параметров для каждого файла.
+ *
  * @param nameAndFolder имя файла и папки над ним
- * @param fullText текст в файле
- * @param requirements требования к другим файлам
- * Класс для сохранения вышеуказанных параметров для каждого файла.
+ * @param fullText      текст в файле
+ * @param requirements  требования к другим файлам
  */
-public record FileInfo(String nameAndFolder, String fullText, List<String> requirements) {
+record FileInfo(String nameAndFolder, String fullText, List<String> requirements) {
 }
