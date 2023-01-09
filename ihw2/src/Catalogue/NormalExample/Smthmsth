@@ -1,0 +1,5 @@
+require 'BrokenRequire/A'
+smthsmth
+require 'EmptyExample/'
+require 'BasicCycle/FileA'
+and also require 'Folder 1/File 1-1', but it won't work because it's not in the beginning
